@@ -217,7 +217,7 @@ button:focus {
     color: #fff;
     display: inline-block;
     letter-spacing: 1.5px;
-    padding: 35px 35px;
+    padding: 15px 15px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     border-radius: 100%; 
@@ -597,7 +597,7 @@ button:focus {
 
 
 #mu-about {
-	background-color: #f7f7f7;
+	background-color: white;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -733,6 +733,24 @@ button:focus {
 	color: #fff;
 }
 
+.mu-github-btn {
+	margin-top: 30px;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	border-radius: 10px;
+}
+
+.mu-github-btn:hover,
+.mu-github-btn:focus {
+	color: #ffffff59;
+}
+
 .mu-detail-btn {
 	margin-top: 30px;
 	display: inline-block;
@@ -757,7 +775,7 @@ button:focus {
 
 
 #mu-portfolio {
-	background-color: #f8f8f8;
+	background-color: white;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -831,6 +849,8 @@ button:focus {
 	z-index: 1;
 	overflow: hidden;
 }
+
+
 
 .mu-item-thumbonail{
 	display: inline;
@@ -1014,7 +1034,7 @@ button:focus {
 
 
 #mu-footer {
-	background-color: #f8f8f8;
+	background-color: #2b2f4b;
 	display: inline;
 	float: left;
 	width: 100%;
