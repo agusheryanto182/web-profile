@@ -184,33 +184,33 @@
 	/*  7. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
 	/* ----------------------------------------------------------- */ 
 
-	$('.mu-filter-imglink').magnificPopup({
-	  type: 'image',
-	  mainClass: 'mfp-fade',
-	  gallery:{
-	    enabled:true
-	  }
-	});
+	// $('.mu-filter-imglink').magnificPopup({
+	//   type: 'image',
+	//   mainClass: 'mfp-fade',
+	//   gallery:{
+	//     enabled:true
+	//   }
+	// });
 
 	/* ----------------------------------------------------------- */
 	/*  8. CLIENT TESTIMONIALS (SLICK SLIDER)
 	/* ----------------------------------------------------------- */
 
-		$('.mu-testimonial-slide').slick({
-		  arrows: false,
-		  dots: true,
-		  infinite: true,
-		  speed: 500,
-		  autoplay: true,
-		  cssEase: 'linear'
-		});
+		// $('.mu-testimonial-slide').slick({
+		//   arrows: false,
+		//   dots: true,
+		//   infinite: true,
+		//   speed: 500,
+		//   autoplay: true,
+		//   cssEase: 'linear'
+		// });
 
 
 	/* ----------------------------------------------------------- */
 	/*  9. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
 	/* ----------------------------------------------------------- */
 
-		$('.view-my-work-btn').on('click',function (e) {
+		$('.scroll-btn').on('click',function (e) {
 		    e.preventDefault();
 		    var target = this.hash,
 		    $target = $(target);
